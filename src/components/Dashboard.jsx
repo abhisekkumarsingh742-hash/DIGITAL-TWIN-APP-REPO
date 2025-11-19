@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import BodyTwin from "./BodyTwin";
-import MetricCard from "./MetricCard";
+//import MetricCard from "./MetricCard";
 import initialMetrics from "../data/mockMetrics.json";
 
 const zonePositionsTooltip = {
@@ -11,11 +11,11 @@ const zonePositionsTooltip = {
   joints: { x: 110, y: 380 }
 };
 
-const zoneColor = (value) => {
-  if (value < 0.33) return "var(--primary-green)";
-  if (value < 0.66) return "var(--primary-yellow)";
-  return "var(--primary-red)";
-};
+// const zoneColor = (value) => {
+//   if (value < 0.33) return "var(--primary-green)";
+//   if (value < 0.66) return "var(--primary-yellow)";
+//   return "var(--primary-red)";
+// };
 
 export default function Dashboard() {
   // Convert initial metrics object to local state
