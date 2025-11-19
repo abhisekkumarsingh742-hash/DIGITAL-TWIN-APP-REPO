@@ -1,0 +1,27 @@
+{
+  "heart_rate": {
+    "label": "Heart Rate",
+    "value": 80,
+    "zone": "heart"
+  },
+  "stress": {
+    "label": "Stress",
+    "value": 0.4,
+    "zone": "brain"
+  },
+  "sleep_quality": {
+    "label": "Sleep Quality",
+    "value": 0.7,
+    "zone": "lungs"
+  },
+  "inflammation": {
+    "label": "Inflammation",
+    "value": 0.3,
+    "zone": "gut"
+  },
+  "energy": {
+    "label": "Energy",
+    "value": 0.8,
+    "zone": "joints"
+  }
+}
